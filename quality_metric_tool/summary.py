@@ -182,5 +182,4 @@ class Summary:
         # No strings in the metadata
         if count == 0:
             return 0
-        # return total_flesch/count
-        return (total_flesch, num_count)
+        return (total_flesch/count, num_count)
